@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUIA Republic</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="logo-section">
+                <a href="/" class="logo-images">
+                    <img src="images/ruia_logo.png" alt="Institute Logo 1" class="institute-logo">
+                    <img src="images/rsc_logo.png" alt="Institute Logo 2" class="institute-logo">
+                </a>
+            </div>
+            
+            <div class="nav-toggle-wrapper">
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar" id="mainNav">
+        <div class="sidebar-header">
+            <span class="sidebar-logo-text">RUIA Republic</span>
+            <div class="sidebar-close" id="sidebarClose">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <ul class="nav-list">
+            <li><a href="/" class="active">Home</a></li>
+            <li><a href="/rr.html">RUIA Republic</a></li>
+            <li><a href="/rmun.html">RUIAMUN</a></li>
+            <li><a href="/oc.html">Organizing Committee</a></li>
+            <li><a href="/events.html">Events</a></li>
+            <li><a href="/contact.html">Connect with Us</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Overlay for when sidebar is open -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <section class="hero">
+        <!-- Replace single video with carousel -->
+        <div class="hero-carousel">
+            <!-- First slide - Video -->
+            <div class="carousel-slide active">
+                <video autoplay muted loop class="slide-media">
+                    <source src="images/mun.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+            <!-- Second slide - Image -->
+            <div class="carousel-slide">
+                <img src="images/mun_1.png" alt="Debate" class="slide-media">
+            </div>
+            
+            <!-- Fourth slide - Image -->
+            <div class="carousel-slide">
+                <img src="images/mun_2.png" alt="Discussion" class="slide-media">
+            </div>
+            
+            <!-- Fourth slide - Image -->
+            <div class="carousel-slide">
+                <img src="images/mun_3.png" alt="Discussion" class="slide-media">
+            </div>
+            
+            <!-- Overlay for text visibility -->
+            <div class="video-overlay"></div>
+        </div>
+        
+        <div class="hero-centered-content">
+            <img src="images/rr_logo.png" alt="RUIA Republic Logo" class="hero-logo">
+            <h1 class="hero-title">
+                <span class="animated-character">R</span>
+                <span class="animated-character">U</span>
+                <span class="animated-character">I</span>
+                <span class="animated-character">A</span>
+                <span class="animated-character">&nbsp;</span>
+                <span class="animated-character">R</span>
+                <span class="animated-character">e</span>
+                <span class="animated-character">p</span>
+                <span class="animated-character">u</span>
+                <span class="animated-character">b</span>
+                <span class="animated-character">l</span>
+                <span class="animated-character">i</span>
+                <span class="animated-character">c</span>
+            </h1>
+            <p class="hero-tagline">Empowering Students, Building Leaders, Creating Change</p>
+            
+            <div class="animated-text-container">
+                <span class="animated-text-static">Let's </span>
+                <span class="animated-text-changing">
+                    <span class="word visible">Discuss</span>
+                    <span class="word">Debate</span>
+                    <span class="word">Decide</span>
+                </span>
+            </div>
+            
+            <!-- Scroll Down Animation -->
+            <div class="scroll-down-container">
+                <div class="scroll-down-icon">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <span class="scroll-text">Scroll Down</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container features-container">
+            <div class="features-content">
+                <h2 class="section-title">What We Offer</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Community</h3>
+                        <p>Join a vibrant community of like-minded individuals passionate about making a difference.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Leadership</h3>
+                        <p>Develop essential leadership skills through real-world challenges and opportunities.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Global Perspective</h3>
+                        <p>Engage with global issues and expand your worldview through RUIAMUN and other initiatives.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Globe Container -->
+            <div class="globe-container">
+                <div class="globe-wrapper">
+                    <canvas id="globe-3d"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="upcoming-events">
+        <div class="container">
+            <h2 class="section-title">Upcoming Events</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-date">Aug 15</div>
+                    <h3>RUIAMUN Conference 2023</h3>
+                    <p>Annual Model United Nations conference addressing global challenges</p>
+                    <a href="/events/ruiamun-2023" class="btn btn-outline btn-sm">Learn More</a>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">Sep 5</div>
+                    <h3>Leadership Workshop</h3>
+                    <p>Interactive workshop on developing essential leadership skills</p>
+                    <a href="/events/leadership-workshop" class="btn btn-outline btn-sm">Learn More</a>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">Oct 12</div>
+                    <h3>Community Service Day</h3>
+                    <p>Join us for a day of giving back to our local community</p>
+                    <a href="/events/community-service" class="btn btn-outline btn-sm">Learn More</a>
+                </div>
+            </div>
+            <div class="center-btn">
+                <a href="/events" class="btn btn-primary">View All Events</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Members Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <p>"Being part of RUIA Republic has transformed my college experience and helped me develop invaluable skills."</p>
+                    <div class="testimonial-author">
+                        <img src="images/mun_2.png" alt="Student 1">
+                        <div>
+                            <h4>Priya Sharma</h4>
+                            <span>3rd Year Student</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"The RUIAMUN conference was eye-opening and gave me a deeper understanding of international relations."</p>
+                    <div class="testimonial-author">
+                        <img src="images/mun_3.png" alt="Student 2">
+                        <div>
+                            <h4>Raj Patel</h4>
+                            <span>2nd Year Student</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>RUIA Republic</h3>
+                    <p>Empowering students to become leaders of tomorrow through community engagement and global awareness.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/events">Events</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Connect with Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2023 RUIA Republic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

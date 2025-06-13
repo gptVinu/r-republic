@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | RUIA Republic</title>
+    <link rel="stylesheet" href="styles/rr-styles.css">
+    <link rel="stylesheet" href="styles/rmun-styles.css">
+    <link rel="stylesheet" href="styles/oc-styles.css">
+    <link rel="stylesheet" href="styles/events-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/hover.css@2.3.2/css/hover-min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation Bar - Keep existing navbar -->
+    <nav class="navbar transparent">
+        <div class="logo" data-aos="fade-right">
+            <img src="/images/rr_logo.png" alt="Ruia Republic Logo" class="pulse-animation">
+        </div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/" class="hvr-underline-from-center">Home</a></li>
+            <li class="dropdown">
+                <a href="/rr.html" class="hvr-underline-from-center dropdown-toggle">RUIA Republic <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="rr.html#about">About Ruia College</a></li>
+                    <li><a href="rr.html#rsc">Ruia Student Council</a></li>
+                    <li><a href="rr.html#rr">Ruia Republic</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="/rmun.html" class="hvr-underline-from-center dropdown-toggle">RUIAMUN <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="rmun.html#theme">Our Theme</a></li>
+                    <li><a href="rmun.html#about-mun">About RUIAMUN</a></li>
+                    <li><a href="rmun.html#secretary">Secretary-General</a></li>
+                    <li><a href="rmun.html#committees">Committees</a></li>
+                    <li><a href="rmun.html#previous-muns">RUIA MUN Journey</a></li>
+                </ul>
+            </li>
+            <li><a href="/oc.html" class="hvr-underline-from-center">Organizing Committee</a></li>
+            <li><a href="/events.html" class="hvr-underline-from-center active">Events</a></li>
+            <li><a href="/contact.html" class="hvr-underline-from-center">Connect with Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section - Keep with enhancements -->
+    <section class="events-hero">
+        <div class="events-hero-overlay"></div>
+        <canvas id="heroAnimation" class="hero-animation-canvas"></canvas>
+        <div class="container">
+            <div class="events-hero-content" data-aos="fade-up">
+                <div class="events-badge">RUIA REPUBLIC</div>
+                <h1 class="events-title">Our <span class="highlight">Events</span></h1>
+                <p class="events-description">From cultural extravaganzas to educational initiatives and meaningful celebrations, explore the diverse events that define the Ruia Republic experience.</p>
+                
+                <div class="events-navigation">
+                    <a href="#utsav" class="events-nav-link">
+                        <span class="nav-icon"><i class="fas fa-calendar-star"></i></span>
+                        Utsav Aarohan
+                    </a>
+                    <a href="#freeschool" class="events-nav-link">
+                        <span class="nav-icon"><i class="fas fa-graduation-cap"></i></span>
+                        Free School Initiative
+                    </a>
+                    <a href="#celebrations" class="events-nav-link">
+                        <span class="nav-icon"><i class="fas fa-glass-cheers"></i></span>
+                        Celebrations
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="scroll-text">Scroll to explore</div>
+        </div>
+        
+        <div class="hero-decorations">
+            <div class="deco-element d1"></div>
+            <div class="deco-element d2"></div>
+            <div class="deco-element d3"></div>
+        </div>
+    </section>
+
+    <!-- Main Content Wrapper -->
+    <main class="main-content">
+        <!-- Utsav Aarohan Section -->
+        <section id="utsav" class="utsav-section section-spacing">
+            <div class="section-background">
+                <div class="bg-pattern pattern1"></div>
+                <div class="bg-pattern pattern2"></div>
+                <div class="floating-shape shape1"></div>
+                <div class="floating-shape shape2"></div>
+            </div>
+            
+            <div class="container">
+                <div class="section-header reveal-text" data-aos="fade-up">
+                    <span class="section-subtitle">Annual Cultural Festival</span>
+                    <h2 class="section-title">Utsav Aarohan</h2>
+                    <p class="section-description">Our signature annual cultural festival celebrating talent, creativity, and the vibrant spirit of Ruia College across the years.</p>
+                </div>
+                
+                <div class="timeline-controls" data-aos="fade-up">
+                    <button class="timeline-control active" data-year="2024">2024</button>
+                    <button class="timeline-control" data-year="2023">2023</button>
+                    <button class="timeline-control" data-year="2022">2022</button>
+                    <div class="indicator"></div>
+                </div>
+                
+                <!-- Year 2024 Content -->
+                <div class="year-content active" data-year="2024">
+                    <div class="festival-highlight" data-aos="fade-up">
+                        <div class="highlight-wrapper">
+                            <div class="festival-visual">
+                                <div class="main-image">
+                                    <img src="/images/mun_1.png" alt="Utsav Aarohan 2024">
+                                    <div class="image-badge">FLAGSHIP</div>
+                                </div>
+                                <div class="stats-overlay">
+                                    <div class="stat-group">
+                                        <div class="stat-value">5000+</div>
+                                        <div class="stat-label">Participants</div>
+                                    </div>
+                                    <div class="stat-group">
+                                        <div class="stat-value">30+</div>
+                                        <div class="stat-label">Events</div>
+                                    </div>
+                                    <div class="stat-group">
+                                        <div class="stat-value">4</div>
+                                        <div class="stat-label">Days</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="festival-content">
+                                <div class="content-header">
+                                    <div class="event-date">February 15-18, 2024</div>
+                                    <h3 class="highlight-title">Utsav Aarohan 2024</h3>
+                                    <div class="highlight-theme">"Celebrating Culture, Creativity & Unity"</div>
+                                </div>
+                                <p class="highlight-description">The most recent edition of our flagship festival featured performances by renowned artists, innovative competitions, and cultural showcases that brought together students from over 50 colleges. The festival celebrated diversity through music, dance, theater, literature, and art.</p>
+                                <div class="highlight-features">
+                                    <div class="feature">
+                                        <div class="feature-icon"><i class="fas fa-music"></i></div>
+                                        <div class="feature-text">Live Performances</div>
+                                    </div>
+                                    <div class="feature">
+                                        <div class="feature-icon"><i class="fas fa-theater-masks"></i></div>
+                                        <div class="feature-text">Cultural Showcases</div>
+                                    </div>
+                                    <div class="feature">
+                                        <div class="feature-icon"><i class="fas fa-trophy"></i></div>
+                                        <div class="feature-text">Competitions</div>
+                                    </div>
+                                </div>
+                                <div class="highlight-actions">
+                                    <a href="#" class="btn btn-primary">View Gallery</a>
+                                    <a href="#" class="btn btn-outline">Event Highlights</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="events-grid" data-aos="fade-up">
+                        <div class="event-card" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="card-image">
+                                <img src="/images/mun_1.png" alt="Event">
+                            </div>
+                            <div class="card-body">
+                                <h4>Cultural Performances</h4>
+                                <p>Showcase of music, dance, and theatrical talents from across colleges.</p>
+                            </div>
+                        </div>
+                        <div class="event-card" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="card-image">
+                                <img src="/images/mun_1.png" alt="Event">
+                            </div>
+                            <div class="card-body">
+                                <h4>Literary Competitions</h4>
+                                <p>Debates, poetry slams, and creative writing contests for budding writers.</p>
+                            </div>
+                        </div>
+                        <div class="event-card" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="card-image">
+                                <img src="/images/mun_1.png" alt="Event">
+                            </div>
+                            <div class="card-body">
+                                <h4>Art Exhibition</h4>
+                                <p>Student artwork showcasing diverse styles and mediums.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Year 2023 Content -->
+                <div class="year-content" data-year="2023">
+                    <!-- Similar structure to 2024 with different content -->
+                    <div class="festival-highlight" data-aos="fade-up">
+                        <div class="highlight-wrapper">
+                            <div class="festival-visual">
+                                <div class="main-image">
+                                    <img src="/images/mun_1.png" alt="Utsav Aarohan 2023">
+                                    <div class="image-badge">MILESTONE</div>
+                                </div>
+                                <div class="stats-overlay">
+                                    <div class="stat-group">
+                                        <div class="stat-value">4000+</div>
+                                        <div class="stat-label">Participants</div>
+                                    </div>
+                                    <div class="stat-group">
+                                        <div class="stat-value">25+</div>
+                                        <div class="stat-label">Events</div>
+                                    </div>
+                                    <div class="stat-group">
+                                        <div class="stat-value">3</div>
+                                        <div class="stat-label">Days</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="festival-content">
+                                <div class="content-header">
+                                    <div class="event-date">February 10-12, 2023</div>
+                                    <h3 class="highlight-title">Utsav Aarohan 2023</h3>
+                                    <div class="highlight-theme">"Renaissance: Rebirth & Renewal"</div>
+                                </div>
+                                <p class="highlight-description">Our 2023 edition marked the full return of in-person events after the pandemic, celebrating the themes of rebirth and new beginnings. The festival featured a special focus on traditional arts revival and contemporary expression.</p>
+                                <div class="highlight-features">
+                                    <div class="feature">
+                                        <div class="feature-icon"><i class="fas fa-music"></i></div>
+                                        <div class="feature-text">Live Performances</div>
+                                    </div>
+                                    <div class="feature">
+                                        <div class="feature-icon"><i class="fas fa-theater-masks"></i></div>
+                                        <div class="feature-text">Cultural Showcases</div>
+                                    </div>
+                                    <div class="feature">
+                                        <div class="feature-icon"><i class="fas fa-trophy"></i></div>
+                                        <div class="feature-text">Competitions</div>
+                                    </div>
+                                </div>
+                                <div class="highlight-actions">
+                                    <a href="#" class="btn btn-primary">View Gallery</a>
+                                    <a href="#" class="btn btn-outline">Event Highlights</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Year 2022 Content -->
+                <div class="year-content" data-year="2022">
+                    <!-- Similar structure to 2024 with different content -->
+                    <div class="festival-highlight" data-aos="fade-up">
+                        <div class="highlight-wrapper">
+                            <div class="festival-visual">
+                                <div class="main-image">
+                                    <img src="/images/mun_1.png" alt="Utsav Aarohan 2022">
+                                    <div class="image-badge">INAUGURAL</div>
+                                </div>
+                                <div class="stats-overlay">
+                                    <div class="stat-group">
+                                        <div class="stat-value">2000+</div>
+                                        <div class="stat-label">Participants</div>
+                                    </div>
+                                    <div class="stat-group">
+                                        <div class="stat-value">15+</div>
+                                        <div class="stat-label">Events</div>
+                                    </div>
+                                    <div class="stat-group">
+                                        <div class="stat-value">2</div>
+                                        <div class="stat-label">Days</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="festival-content">
+                                <div class="content-header">
+                                    <div class="event-date">March 5-6, 2022</div>
+                                    <h3 class="highlight-title">Utsav Aarohan 2022</h3>
+                                    <div class="highlight-theme">"New Horizons"</div>
+                                </div>
+                                <p class="highlight-description">Our inaugural festival that laid the foundation for a new tradition of excellence, featuring hybrid online and in-person events designed to showcase student creativity in a safe environment.</p>
+                                <div class="highlight-features">
+                                    <div class="feature">
+                                        <div class="feature-icon"><i class="fas fa-music"></i></div>
+                                        <div class="feature-text">Live Performances</div>
+                                    </div>
+                                    <div class="feature">
+                                        <div class="feature-icon"><i class="fas fa-theater-masks"></i></div>
+                                        <div class="feature-text">Cultural Showcases</div>
+                                    </div>
+                                    <div class="feature">
+                                        <div class="feature-icon"><i class="fas fa-trophy"></i></div>
+                                        <div class="feature-text">Competitions</div>
+                                    </div>
+                                </div>
+                                <div class="highlight-actions">
+                                    <a href="#" class="btn btn-primary">View Gallery</a>
+                                    <a href="#" class="btn btn-outline">Event Highlights</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Free School Initiative Section -->
+        <section id="freeschool" class="freeschool-section section-spacing">
+            <div class="container">
+                <div class="section-header reveal-text" data-aos="fade-up">
+                    <span class="section-subtitle">Educational Outreach</span>
+                    <h2 class="section-title">Free School Initiative</h2>
+                    <p class="section-description">Our commitment to accessible education through community programs that empower students with knowledge and skills.</p>
+                </div>
+                
+                <div class="initiative-tabs" data-aos="fade-up">
+                    <div class="tab-selector">
+                        <button class="tab-button active" data-tab="muktangan">
+                            <span class="tab-icon"><i class="fas fa-book-reader"></i></span>
+                            <span class="tab-name">Muktangan</span>
+                        </button>
+                        <button class="tab-button" data-tab="seed">
+                            <span class="tab-icon"><i class="fas fa-seedling"></i></span>
+                            <span class="tab-name">SEED NUO</span>
+                        </button>
+                        <button class="tab-button" data-tab="spdmun">
+                            <span class="tab-icon"><i class="fas fa-globe"></i></span>
+                            <span class="tab-name">SPD MUN</span>
+                        </button>
+                        <div class="tab-indicator"></div>
+                    </div>
+                </div>
+                
+                <div class="initiative-content-container">
+                    <!-- Muktangan Content -->
+                    <div class="initiative-content active" data-tab="muktangan">
+                        <div class="initiative-showcase" data-aos="fade-up">
+                            <div class="initiative-media">
+                                <div class="media-gallery">
+                                    <div class="main-media">
+                                        <img src="/images/mun_1.png" alt="Muktangan">
+                                    </div>
+                                    <div class="media-grid">
+                                        <div class="media-item"><img src="/images/mun_1.png" alt=""></div>
+                                        <div class="media-item"><img src="/images/mun_1.png" alt=""></div>
+                                        <div class="media-item"><img src="/images/mun_1.png" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="media-decoration">
+                                    <div class="deco-shape shape1"></div>
+                                    <div class="deco-shape shape2"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="initiative-info">
+                                <h3 class="initiative-title">Muktangan</h3>
+                                <div class="initiative-subtitle">Educational Support for Underprivileged Children</div>
+                                <p class="initiative-description">Muktangan is our flagship educational outreach program providing free education to underprivileged children from nearby communities. Through interactive learning sessions, we focus on developing fundamental skills in mathematics, science, language, and arts.</p>
+                                
+                                <div class="initiative-stats">
+                                    <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="stat-icon"><i class="fas fa-child"></i></div>
+                                        <div class="stat-number" data-value="200">0</div>
+                                        <div class="stat-text">Children Reached</div>
+                                    </div>
+                                    <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="stat-icon"><i class="fas fa-hands-helping"></i></div>
+                                        <div class="stat-number" data-value="50">0</div>
+                                        <div class="stat-text">Student Volunteers</div>
+                                    </div>
+                                    <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                                        <div class="stat-icon"><i class="fas fa-calendar-check"></i></div>
+                                        <div class="stat-number" data-value="104">0</div>
+                                        <div class="stat-text">Weekly Sessions</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="initiative-features">
+                                    <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="feature-icon"><i class="fas fa-book"></i></div>
+                                        <div class="feature-content">
+                                            <h4>Academic Support</h4>
+                                            <p>Regular classes in mathematics, languages, science, and creative arts</p>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="feature-icon"><i class="fas fa-paint-brush"></i></div>
+                                        <div class="feature-content">
+                                            <h4>Creative Development</h4>
+                                            <p>Activities focusing on artistic expression and creative thinking</p>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
+                                        <div class="feature-icon"><i class="fas fa-users"></i></div>
+                                        <div class="feature-content">
+                                            <h4>Social Skills</h4>
+                                            <p>Programs to develop empathy, teamwork, and communication skills</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="initiative-cta">
+                                    <a href="#" class="btn btn-primary">Learn More</a>
+                                    <a href="#" class="btn btn-outline">Volunteer</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-carousel" data-aos="fade-up">
+                            <h4 class="carousel-title">Stories of Impact</h4>
+                            <div class="swiper testimonial-swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-card">
+                                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                                            <p class="testimonial-text">Muktangan gave me confidence in mathematics that I never had before. Now I dream of becoming an engineer.</p>
+                                            <div class="testimonial-author">
+                                                <div class="author-name">Riya, 12</div>
+                                                <div class="author-role">Student</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-card">
+                                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                                            <p class="testimonial-text">Volunteering with Muktangan has been the most rewarding experience of my college life.</p>
+                                            <div class="testimonial-author">
+                                                <div class="author-name">Aditya</div>
+                                                <div class="author-role">Student Volunteer</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- SEED NUO Content -->
+                    <div class="initiative-content" data-tab="seed">
+                        <!-- Similar structure to Muktangan with SEED NUO specific content -->
+                    </div>
+                    
+                    <!-- SPD MUN Content -->
+                    <div class="initiative-content" data-tab="spdmun">
+                        <!-- Similar structure to Muktangan with SPD MUN specific content -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-background">
+                <div class="bg-circle circle1"></div>
+                <div class="bg-circle circle2"></div>
+                <div class="bg-wave"></div>
+            </div>
+        </section>
+        
+        <!-- Celebrations Section -->
+        <section id="celebrations" class="celebrations-section section-spacing">
+            <div class="section-background">
+                <div class="celebration-pattern pattern1"></div>
+                <div class="celebration-pattern pattern2"></div>
+            </div>
+            
+            <div class="container">
+                <div class="section-header reveal-text" data-aos="fade-up">
+                    <span class="section-subtitle">Special Moments</span>
+                    <h2 class="section-title">Celebrations</h2>
+                    <p class="section-description">Meaningful events that strengthen our community bonds and create lasting traditions at Ruia College.</p>
+                </div>
+                
+                <div class="celebrations-container" data-aos="fade-up">
+                    <!-- Celebration 1: MUN Delegation -->
+                    <div class="celebration-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="celebration-image">
+                                    <img src="/images/mun_1.png" alt="MUN Delegation">
+                                    <div class="image-overlay"></div>
+                                </div>
+                                <div class="celebration-title">
+                                    <h3>MUN Delegation</h3>
+                                    <button class="info-button">
+                                        <i class="fas fa-info-circle"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="card-back">
+                                <div class="back-content">
+                                    <h3>MUN Delegation</h3>
+                                    <p>Our delegation represents Ruia College at prestigious Model United Nations conferences across the country, fostering diplomatic skills and global awareness among students.</p>
+                                    <div class="celebration-highlights">
+                                        <div class="highlight">
+                                            <i class="fas fa-award"></i>
+                                            <span>15+ Awards Won</span>
+                                        </div>
+                                        <div class="highlight">
+                                            <i class="fas fa-globe-asia"></i>
+                                            <span>National Participation</span>
+                                        </div>
+                                        <div class="highlight">
+                                            <i class="fas fa-users"></i>
+                                            <span>40+ Delegates</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-sm btn-primary">View Gallery</a>
+                                    <button class="close-button">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Celebration 2: Rose Day -->
+                    <div class="celebration-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="celebration-image">
+                                    <img src="/images/mun_1.png" alt="Rose Day">
+                                    <div class="image-overlay"></div>
+                                </div>
+                                <div class="celebration-title">
+                                    <h3>Rose Day</h3>
+                                    <button class="info-button">
+                                        <i class="fas fa-info-circle"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="card-back">
+                                <div class="back-content">
+                                    <h3>Rose Day</h3>
+                                    <p>A cherished tradition where students exchange roses symbolizing friendship, appreciation, and gratitude, creating a day filled with warmth and camaraderie.</p>
+                                    <div class="celebration-highlights">
+                                        <div class="highlight">
+                                            <i class="fas fa-calendar-day"></i>
+                                            <span>February 7 Annually</span>
+                                        </div>
+                                        <div class="highlight">
+                                            <i class="fas fa-heart"></i>
+                                            <span>Campus-wide Celebration</span>
+                                        </div>
+                                        <div class="highlight">
+                                            <i class="fas fa-smile"></i>
+                                            <span>Student Favorite</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-sm btn-primary">View Gallery</a>
+                                    <button class="close-button">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Celebration 3: VPM Day -->
+                    <div class="celebration-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="celebration-image">
+                                    <img src="/images/mun_1.png" alt="VPM Day">
+                                    <div class="image-overlay"></div>
+                                </div>
+                                <div class="celebration-title">
+                                    <h3>VPM Day</h3>
+                                    <button class="info-button">
+                                        <i class="fas fa-info-circle"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="card-back">
+                                <div class="back-content">
+                                    <h3>VPM Day</h3>
+                                    <p>Honoring our founder's vision with a day dedicated to academic excellence, community service, and cultural performances that reflect our institutional values.</p>
+                                    <div class="celebration-highlights">
+                                        <div class="highlight">
+                                            <i class="fas fa-landmark"></i>
+                                            <span>Heritage Celebration</span>
+                                        </div>
+                                        <div class="highlight">
+                                            <i class="fas fa-award"></i>
+                                            <span>Academic Awards</span>
+                                        </div>
+                                        <div class="highlight">
+                                            <i class="fas fa-handshake"></i>
+                                            <span>Alumni Gathering</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-sm btn-primary">View Gallery</a>
+                                    <button class="close-button">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-preview" data-aos="fade-up">
+                    <h3 class="preview-title">Celebration Highlights</h3>
+                    <div class="preview-grid">
+                        <div class="preview-item" data-aos="zoom-in" data-aos-delay="100">
+                            <img src="/images/mun_1.png" alt="Celebration">
+                        </div>
+                        <div class="preview-item" data-aos="zoom-in" data-aos-delay="200">
+                            <img src="/images/mun_1.png" alt="Celebration">
+                        </div>
+                        <div class="preview-item" data-aos="zoom-in" data-aos-delay="300">
+                            <img src="/images/mun_1.png" alt="Celebration">
+                        </div>
+                        <div class="preview-item" data-aos="zoom-in" data-aos-delay="400">
+                            <img src="/images/mun_1.png" alt="Celebration">
+                        </div>
+                        <div class="preview-item" data-aos="zoom-in" data-aos-delay="500">
+                            <img src="/images/mun_1.png" alt="Celebration">
+                        </div>
+                        <div class="preview-item view-more" data-aos="zoom-in" data-aos-delay="600">
+                            <div class="more-overlay">
+                                <span>+24</span>
+                                <span>View All</span>
+                            </div>
+                            <img src="/images/mun_1.png" alt="Celebration">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Newsletter Section -->
+        <section class="newsletter-section">
+            <div class="container">
+                <div class="newsletter-container" data-aos="fade-up">
+                    <div class="newsletter-content">
+                        <h2>Stay Updated with Our Events</h2>
+                        <p>Subscribe to our newsletter to receive exclusive updates about upcoming events and activities.</p>
+                        <form class="newsletter-form">
+                            <div class="form-group">
+                                <input type="email" placeholder="Your Email Address" required>
+                                <button type="submit" class="btn btn-primary">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="newsletter-decoration">
+                        <div class="decoration-element d1"></div>
+                        <div class="decoration-element d2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer - Keep existing footer -->
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-about">
+                        <div class="footer-logo">
+                            <img src="/images/rr_logo.png" alt="Ruia Republic Logo">
+                        </div>
+                        <p>Where passion meets purpose and innovation drives excellence.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/rr.html">RUIA Republic</a></li>
+                            <li><a href="/rmun.html">RUIAMUN</a></li>
+                            <li><a href="/oc.html">Organizing Committee</a></li>
+                            <li><a href="/events.html">Events</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">News & Events</a></li>
+                            <li><a href="#">Students Corner</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Alumni</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-newsletter">
+                        <h4>Newsletter</h4>
+                        <p>Subscribe for updates and announcements</p>
+                        <form class="newsletter-form">
+                            <div class="form-group">
+                                <input type="email" placeholder="Your Email" required>
+                                <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Ruia Republic. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="scripts/rr-scripts.js"></script>
+    <script src="scripts/rmun-scripts.js"></script>
+    <script src="scripts/events-scripts.js"></script>
+</body>
+</html>

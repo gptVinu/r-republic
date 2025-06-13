@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect With Us | RUIA Republic</title>
+    <link rel="stylesheet" href="styles/rr-styles.css">
+    <link rel="stylesheet" href="styles/rmun-styles.css">
+    <link rel="stylesheet" href="styles/oc-styles.css">
+    <link rel="stylesheet" href="styles/events-styles.css">
+    <link rel="stylesheet" href="styles/contact-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/hover.css@2.3.2/css/hover-min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation Bar - Same as events.html -->
+    <nav class="navbar transparent">
+        <div class="logo" data-aos="fade-right">
+            <img src="/images/rr_logo.png" alt="Ruia Republic Logo" class="pulse-animation">
+        </div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/" class="hvr-underline-from-center">Home</a></li>
+            <li class="dropdown">
+                <a href="/rr.html" class="hvr-underline-from-center dropdown-toggle">RUIA Republic <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="rr.html#about">About Ruia College</a></li>
+                    <li><a href="rr.html#rsc">Ruia Student Council</a></li>
+                    <li><a href="rr.html#rr">Ruia Republic</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="/rmun.html" class="hvr-underline-from-center dropdown-toggle">RUIAMUN <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="rmun.html#theme">Our Theme</a></li>
+                    <li><a href="rmun.html#about-mun">About RUIAMUN</a></li>
+                    <li><a href="rmun.html#secretary">Secretary-General</a></li>
+                    <li><a href="rmun.html#committees">Committees</a></li>
+                    <li><a href="rmun.html#previous-muns">RUIA MUN Journey</a></li>
+                </ul>
+            </li>
+            <li><a href="/oc.html" class="hvr-underline-from-center">Organizing Committee</a></li>
+            <li><a href="/events.html" class="hvr-underline-from-center">Events</a></li>
+            <li><a href="/contact.html" class="hvr-underline-from-center active">Connect with Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section with Animation -->
+    <section class="contact-hero">
+        <div class="contact-hero-overlay"></div>
+        <canvas id="heroAnimation" class="hero-animation-canvas"></canvas>
+        <div class="container">
+            <div class="contact-hero-content" data-aos="fade-up">
+                <div class="contact-badge">RUIA REPUBLIC</div>
+                <h1 class="contact-title">Connect <span class="highlight">With Us</span></h1>
+                <p class="contact-description">Reach out to learn more about our initiatives, collaborate on projects, or support our mission of fostering education and cultural excellence.</p>
+                
+                <div class="contact-navigation">
+                    <a href="#connect" class="contact-nav-link">
+                        <span class="nav-icon"><i class="fas fa-envelope"></i></span>
+                        Get in Touch
+                    </a>
+                    <a href="#sponsor" class="contact-nav-link">
+                        <span class="nav-icon"><i class="fas fa-handshake"></i></span>
+                        Sponsor Us
+                    </a>
+                    <a href="#location" class="contact-nav-link">
+                        <span class="nav-icon"><i class="fas fa-map-marker-alt"></i></span>
+                        Find Us
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="scroll-text">Scroll to explore</div>
+        </div>
+        
+        <div class="hero-decorations">
+            <div class="deco-element d1"></div>
+            <div class="deco-element d2"></div>
+            <div class="deco-element d3"></div>
+        </div>
+    </section>
+
+    <!-- Main Content Wrapper -->
+    <main class="main-content">
+        <!-- Connect Section -->
+        <section id="connect" class="connect-section section-spacing">
+            <div class="section-background">
+                <div class="bg-pattern pattern1"></div>
+                <div class="bg-pattern pattern2"></div>
+                <div class="floating-shape shape1"></div>
+                <div class="floating-shape shape2"></div>
+            </div>
+            
+            <div class="container">
+                <div class="section-header reveal-text" data-aos="fade-up">
+                    <span class="section-subtitle">Reach Out</span>
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="section-description">We'd love to hear from you. Connect with us through these channels for inquiries, collaborations, or feedback.</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <!-- Email Contact -->
+                    <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope-open-text"></i>
+                        </div>
+                        <h3 class="contact-title">Email Us</h3>
+                        <p class="contact-info">For general inquiries:</p>
+                        <a href="mailto:info@ruiarepublic.org" class="contact-link">info@ruiarepublic.org</a>
+                        <p class="contact-info">For event partnerships:</p>
+                        <a href="mailto:events@ruiarepublic.org" class="contact-link">events@ruiarepublic.org</a>
+                        <p class="contact-info">For MUN inquiries:</p>
+                        <a href="mailto:mun@ruiarepublic.org" class="contact-link">mun@ruiarepublic.org</a>
+                    </div>
+                    
+                    <!-- Social Media -->
+                    <div class="contact-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="contact-icon">
+                            <i class="fas fa-hashtag"></i>
+                        </div>
+                        <h3 class="contact-title">Social Media</h3>
+                        <p class="contact-info">Follow us for updates and events</p>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/ruiarepublic" class="social-link" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                                <span>@ruiarepublic</span>
+                            </a>
+                            <a href="https://www.linkedin.com/company/ruia-republic" class="social-link" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                                <span>Ruia Republic</span>
+                            </a>
+                            <a href="https://www.facebook.com/ruiarepublic" class="social-link" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                                <span>Ruia Republic</span>
+                            </a>
+                            <a href="https://twitter.com/ruiarepublic" class="social-link" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                                <span>@ruiarepublic</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div class="contact-form-container" data-aos="fade-up" data-aos-delay="300">
+                        <h3 class="form-title">Send Us a Message</h3>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Enter subject">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sponsor Section -->
+        <section id="sponsor" class="sponsor-section section-spacing">
+            <div class="container">
+                <div class="section-header reveal-text" data-aos="fade-up">
+                    <span class="section-subtitle">Support Our Initiatives</span>
+                    <h2 class="section-title">Sponsor Our Events</h2>
+                    <p class="section-description">Partner with us to make a meaningful impact on education and youth development through our diverse events and programs.</p>
+                </div>
+                
+                <div class="sponsor-content">
+                    <div class="sponsor-info" data-aos="fade-right">
+                        <h3>Why Sponsor Ruia Republic?</h3>
+                        <p>By sponsoring our events, you contribute to educational excellence and cultural enrichment while gaining valuable brand visibility among engaged young audiences.</p>
+                        
+                        <div class="sponsor-benefits">
+                            <div class="benefit-item" data-aos="fade-up" data-aos-delay="100">
+                                <div class="benefit-icon"><i class="fas fa-users"></i></div>
+                                <div class="benefit-text">
+                                    <h4>Reach Young Audiences</h4>
+                                    <p>Connect with over 5,000+ students and young professionals</p>
+                                </div>
+                            </div>
+                            
+                            <div class="benefit-item" data-aos="fade-up" data-aos-delay="200">
+                                <div class="benefit-icon"><i class="fas fa-bullhorn"></i></div>
+                                <div class="benefit-text">
+                                    <h4>Brand Visibility</h4>
+                                    <p>Showcase your brand across our events and digital platforms</p>
+                                </div>
+                            </div>
+                            
+                            <div class="benefit-item" data-aos="fade-up" data-aos-delay="300">
+                                <div class="benefit-icon"><i class="fas fa-handshake"></i></div>
+                                <div class="benefit-text">
+                                    <h4>Social Responsibility</h4>
+                                    <p>Support education and youth development initiatives</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="sponsor-cta">
+                            <a href="mailto:sponsors@ruiarepublic.org" class="btn btn-primary">Become a Sponsor</a>
+                            <a href="#" class="btn btn-outline">Download Sponsorship Kit</a>
+                        </div>
+                    </div>
+                    
+                    <div class="sponsor-showcase" data-aos="fade-left">
+                        <h3>Our Past Sponsors</h3>
+                        <div class="sponsor-logos">
+                            <!-- Placeholder for sponsor logos -->
+                            <div class="logo-item" data-aos="zoom-in" data-aos-delay="100">
+                                <img src="/images/mun_1.png" alt="Sponsor Logo">
+                            </div>
+                            <div class="logo-item" data-aos="zoom-in" data-aos-delay="200">
+                                <img src="/images/mun_1.png" alt="Sponsor Logo">
+                            </div>
+                            <div class="logo-item" data-aos="zoom-in" data-aos-delay="300">
+                                <img src="/images/mun_1.png" alt="Sponsor Logo">
+                            </div>
+                            <div class="logo-item" data-aos="zoom-in" data-aos-delay="400">
+                                <img src="/images/mun_1.png" alt="Sponsor Logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-background">
+                <div class="bg-circle circle1"></div>
+                <div class="bg-circle circle2"></div>
+            </div>
+        </section>
+        
+        <!-- Location Section -->
+        <section id="location" class="location-section section-spacing">
+            <div class="container">
+                <div class="section-header reveal-text" data-aos="fade-up">
+                    <span class="section-subtitle">Visit Us</span>
+                    <h2 class="section-title">Our Location</h2>
+                    <p class="section-description">Located in the heart of Mumbai, Ruia College is easily accessible by various modes of transportation.</p>
+                </div>
+                
+                <div class="location-content">
+                    <div class="address-container" data-aos="fade-right">
+                        <div class="address-card">
+                            <div class="address-icon">
+                                <i class="fas fa-map-marked-alt"></i>
+                            </div>
+                            <h3>Ramnarain Ruia College</h3>
+                            <p class="address">
+                                L. Nappo Road, Matunga East,<br>
+                                Mumbai, Maharashtra 400019<br>
+                                India
+                            </p>
+                            <div class="contact-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <span>+91 22 2414 2480</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>principal@ruiacollege.edu</span>
+                                </div>
+                            </div>
+                            <a href="https://goo.gl/maps/your-google-maps-link" target="_blank" class="btn btn-outline">
+                                <i class="fas fa-directions"></i> Get Directions
+                            </a>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h3>How to Reach Us</h3>
+                            
+                            <div class="transport-item" data-aos="fade-up" data-aos-delay="100">
+                                <div class="transport-icon">
+                                    <i class="fas fa-train"></i>
+                                </div>
+                                <div class="transport-content">
+                                    <h4>By Train</h4>
+                                    <p>Matunga Station (Central Line) is a 5-minute walk from the college. King's Circle Station (Harbour Line) is a 10-minute walk away.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="transport-item" data-aos="fade-up" data-aos-delay="200">
+                                <div class="transport-icon">
+                                    <i class="fas fa-bus"></i>
+                                </div>
+                                <div class="transport-content">
+                                    <h4>By Bus</h4>
+                                    <p>Multiple BEST bus routes stop at Matunga East Bus Stand, just 2 minutes from the college entrance.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="transport-item" data-aos="fade-up" data-aos-delay="300">
+                                <div class="transport-icon">
+                                    <i class="fas fa-car"></i>
+                                </div>
+                                <div class="transport-content">
+                                    <h4>By Car</h4>
+                                    <p>Limited parking is available near the college. We recommend using public transportation when possible.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-container" data-aos="fade-left">
+                        <!-- Google Maps iframe -->
+                        <div class="map-wrapper">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.4467499195653!2d72.85503731490003!3d19.026455887106068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf21dc21373f%3A0xec4b879402a4cdf5!2sRamnarain%20Ruia%20College!5e0!3m2!1sen!2sin!4v1623456789012!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-background">
+                <div class="bg-pattern pattern1"></div>
+                <div class="bg-pattern pattern2"></div>
+            </div>
+        </section>
+        
+        <!-- Call to Action Section -->
+        <section class="contact-cta-section">
+            <div class="container">
+                <div class="cta-container" data-aos="fade-up">
+                    <div class="cta-content">
+                        <h2>Let's Build Something Great Together</h2>
+                        <p>Whether you're a student, alumni, potential partner, or supporter, we'd love to connect with you.</p>
+                        <div class="cta-buttons">
+                            <a href="mailto:info@ruiarepublic.org" class="btn btn-primary">Email Us</a>
+                            <a href="#connect" class="btn btn-outline">Contact Form</a>
+                        </div>
+                    </div>
+                    <div class="cta-decoration">
+                        <div class="decoration-element d1"></div>
+                        <div class="decoration-element d2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer - Same as events.html -->
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-about">
+                        <div class="footer-logo">
+                            <img src="/images/rr_logo.png" alt="Ruia Republic Logo">
+                        </div>
+                        <p>Where passion meets purpose and innovation drives excellence.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/rr.html">RUIA Republic</a></li>
+                            <li><a href="/rmun.html">RUIAMUN</a></li>
+                            <li><a href="/oc.html">Organizing Committee</a></li>
+                            <li><a href="/events.html">Events</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">News & Events</a></li>
+                            <li><a href="#">Students Corner</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Alumni</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-newsletter">
+                        <h4>Newsletter</h4>
+                        <p>Subscribe for updates and announcements</p>
+                        <form class="newsletter-form">
+                            <div class="form-group">
+                                <input type="email" placeholder="Your Email" required>
+                                <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Ruia Republic. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="scripts/rr-scripts.js"></script>
+    <script src="scripts/rmun-scripts.js"></script>
+    <script src="scripts/events-scripts.js"></script>
+    <script src="scripts/contact-scripts.js"></script>
+</body>
+</html>
